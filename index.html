@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Portfolio<span class="highlight">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="typing-text" data-text="Halo, Saya"></div>
+            <h1>ZIDA AISYANINA</h1>
+            <div class="role-text">
+                Saya seorang <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </div>
+            <p class="hero-description">Mengubah ide menjadi kenyataan melalui kode dan desain yang elegan</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="cta-button primary">Hubungi Saya</a>
+                <a href="#projects" class="cta-button secondary">Lihat Karya</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Gulir ke Bawah</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 data-aos="fade-up">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <img src="zidaaa.jpg" alt="Foto Profil">
+                <div class="experience-badge">
+                    <span class="years">2+</span>
+                    <span class="text">Tahun<br>Pengalaman</span>
+                </div>
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3>Web Developer berbasis di Jepara, Jawa Tengah 📍</h3>
+                <p>Sebagai Web Developer, saya memiliki berbagai keterampilan dalam HTML, CSS, JavaScript, React, dan MERN Stack. Saya ahli dalam merancang dan mengembangkan website responsif yang memberikan pengalaman pengguna yang mulus dan menarik.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="number">20+</span>
+                        <span class="label">Proyek Selesai</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">15+</span>
+                        <span class="label">Klien Puas</span>
+                    </div>
+                </div>
+                <a href="#" class="download-cv">Unduh CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-up">My Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category" data-aos="fade-up">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Backend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                        <div class="skill-level">
+                            <div class="progress" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-aos="fade-up">Layanan Saya</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+                <i class="fas fa-code"></i>
+                <h3>Pengembangan Website</h3>
+                <p>Pembuatan website khusus sesuai kebutuhan Anda</p>
+                <ul class="service-features">
+                    <li>Desain Responsif</li>
+                    <li>Optimasi SEO</li>
+                    <li>Optimasi Performa</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Pengembangan Mobile-First</h3>
+                <p>Membuat website yang dioptimalkan untuk perangkat mobile</p>
+                <ul class="service-features">
+                    <li>Kompatibilitas Lintas Platform</li>
+                    <li>Antarmuka Ramah Sentuh</li>
+                    <li>Kecepatan Loading Optimal</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-server"></i>
+                <h3>Pengembangan API</h3>
+                <p>Membangun API yang kuat dan dapat diskalakan</p>
+                <ul class="service-features">
+                    <li>Arsitektur RESTful</li>
+                    <li>Implementasi Keamanan</li>
+                    <li>Dokumentasi Lengkap</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-up">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image">
+                    <img src="apa-itu-web-development.jpeg" alt="Project 1">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured online shopping platform with payment integration</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="images.jpeg" alt="Project 2">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management tool with real-time updates</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Sass</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="portoo.jpeg" alt="Project 3">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern portfolio website with smooth animations</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up">Hubungi Saya</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Mari diskusikan project Anda!</h3>
+                <p>Tidak suka mengisi form? Kirim email langsung ke <a href="zidaaisyanina@gmail.com">zidaaisyanina@gmail.com</a></p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jepara, Jawa Tengah</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+62 896 0421 8415</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>zidaaisyanina@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek" required>
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" required></textarea>
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Kirim Pesan</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                Portfolio<span class="highlight">.</span>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Portfolio Saya. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
